@@ -10,6 +10,6 @@ const resultObj = (paramArr, paramValue) => {
         allElementIsANumber: paramArr.every(item => typeof (item) === "number"),
         someElementIsANumber: paramArr.some(item => typeof (item) === "number")
     }
-};
+}
 
 console.log(resultObj(mixArr, primitive));
